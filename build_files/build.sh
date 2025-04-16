@@ -15,6 +15,12 @@ dnf5 install -y gdm
 dnf5 install -y gnome-control-center
 dnf5 install -y gnome-session-wayland-session
 dnf5 install -y gnome-shell
+dnf5 install -y gvfs
+dnf5 install -y gvfs-archive
+dnf5 install -y gvfs-client
+dnf5 install -y gvfs-fuse
+dnf5 install -y gvfs-mtp
+dnf5 install -y gvfs-smb
 dnf5 install -y mc
 dnf5 install -y nautilus
 dnf5 install -y nautilus-extensions
