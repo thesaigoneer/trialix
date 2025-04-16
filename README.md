@@ -1,4 +1,4 @@
-# image-template
+# Trialix - test repo for cloud images from Saigon
 
 # Purpose
 
