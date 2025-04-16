@@ -16,9 +16,18 @@ dnf5 install -y gnome-control-center
 dnf5 install -y gnome-session-wayland-session
 dnf5 install -y gnome-shell
 dnf5 install -y mc
-dnf5 install -y micro
+dnf5 install -y nautilus
+dnf5 install -y nautilus-extensions
+dnf5 install -y ptyxis
 dnf5 install -y zsh
 dnf5 install -y zsh-autosuggestions
+
+dnf5 remove -y firefox
+dnf5 remove -y gnome-tour
+dnf5 remove -y hplip
+dnf5 remove -y malcontent
+dnf5 remove -y nvtop
+
 
 #### Example for enabling a System Unit File
 
