@@ -28,7 +28,7 @@ dnf5 install -y ptyxis
 dnf5 install -y zsh
 dnf5 install -y zsh-autosuggestions
 
-dnf5 install -y group 'Development Tools'
+dnf5 group install -y 'Development Tools'
 dnf5 install -y  procps-ng curl file git
 
 dnf5 remove -y firefox
